@@ -2,3 +2,59 @@
 @tailwind utilities;
 @tailwind components;
 @tailwind variants;
+
+
+@font-face {
+  font-family: 'mont';
+  src: url('./assets/fonts/Montserrat/static/Montserrat-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'mont-bold';
+  src: url('./assets/fonts/Montserrat/static/Montserrat-Bold.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ff7900 !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ffa554;
+}
+
+.animate-slideIn{
+  animation: slideIn 0.5s ease-in-out;
+}
+
+.animate-slideOut{
+  animation: slideOut 0.5s ease-in-out;
+}
+@keyframes slideOut{
+  0%{
+    transform: translateX(0);
+    }
+    100%{
+      transform: translateX(-100%);
+      }
+}
+
+@keyframes slideOutRevese {
+  0%{
+    transform: translateX(100%);
+    }
+    100%{
+      transform: translateX(0);
+      }
+}
+
+@keyframes slideIn{
+  0%{
+    transform: translateX(-100%);
+    }
+    100%{
+      transform: translateX(0);
+      }
+}

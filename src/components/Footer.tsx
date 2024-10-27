@@ -7,7 +7,7 @@ import { RiAccountPinBoxLine } from "react-icons/ri";
 const Footer = () => {
   const { pathname } = useLocation()
   return (
-    <footer className={pathname !== "/" ? "hidden" : "p-2 grid grid-cols-5 gap-4 border-t rounded-t-lg"}>
+    <footer className={pathname !== "/" && pathname !== "/product" ? "hidden" : "p-2 grid grid-cols-5 gap-4 border-t rounded-t-lg"}>
       <Link to="/" className="flex items-center jsutify-between flex-col col-span-1 capitalize p-2">
         <CgHomeAlt />
         <p className="text-light text-tiny">home</p>

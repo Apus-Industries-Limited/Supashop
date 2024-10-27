@@ -7,7 +7,12 @@ export default {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        mont: [ "mont" ],
+        "mont-bold":["mont-bold"]
+      },
+    },
   },
   darkMode:"class",
   plugins: [nextui( {

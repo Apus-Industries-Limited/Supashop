@@ -8,14 +8,12 @@ const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
 
 const vitePWA = VitePWA({
+  registerType: 'autoUpdate',
   manifest: {
     name: "SupaShop Ecommerce",
     short_name: "SupaShop",
     description: "E-commerce platform bringing accessibility and transparency to your doorstep 🧡",
-    start_url: "/",
-    display: "standalone",
     theme_color: "#ffffff",
-    background_color: "#ffffff",
     icons: [
       {
         src: "/logo.png",
@@ -33,9 +31,6 @@ const vitePWA = VitePWA({
         type: "image/x-icon"
       }
     ],
-    lang: "en-US",
-    dir: "ltr",
-    orientation: "portrait-primary"
   }
 
 })

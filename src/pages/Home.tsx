@@ -1,6 +1,6 @@
-import CategoryList from "@/components/home/CategoryList"
-import Product from "@/components/home/Product"
-import Slider from "@/components/home/Slider"
+import CategoryList from "../components/home/CategoryList"
+import Product from "../components/home/Product"
+import Slider from "../components/home/Slider"
 
 
 const Home = () => {

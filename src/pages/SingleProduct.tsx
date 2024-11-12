@@ -1,8 +1,8 @@
-
-
 const SingleProduct = () => {
   return (
-    <div>SingleProduct</div>
+    <div>
+      SingleProduct
+    </div>
   )
 }
 

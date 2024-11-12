@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from '@/App.tsx'
+import App from './App.tsx'
 import './index.css'
 import { NextUIProvider as NextUi } from '@nextui-org/react'
 import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'

@@ -2,9 +2,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination, Autoplay } from 'swiper/modules';
-import slide1 from "@/assets/slide.png"
-import slide2 from "@/assets/slide1.png"
+import slide1 from "../../assets/slide.png";
+import slide2 from "../../assets/slide1.png";
 import { Image } from '@nextui-org/react';
+
 
 const Slider = () => {
   return (

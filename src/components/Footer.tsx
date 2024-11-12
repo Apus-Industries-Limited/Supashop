@@ -24,9 +24,9 @@ const Footer = () => {
         <CiShoppingCart />
         <p className="text-light text-tiny">cart</p>
       </Link>
-      <Link to="/profile" className="flex items-center jsutify-between flex-col col-span-1 capitalize p-2">
+      <Link to="/account" className="flex items-center jsutify-between flex-col col-span-1 capitalize p-2">
         <RiAccountPinBoxLine />
-        <p className="text-light text-tiny">Account</p>
+        <a className="text-light text-tiny">Account</a>
       </Link>
     </footer>
   )
